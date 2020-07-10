@@ -1,5 +1,5 @@
 ## Introduction
-- A single Rest API to provide all microservices of translearn. 
+- A single Rest API to provide all microservices of **TransLearn**. 
 
 ## Installation
 * Create **.env** file at home directory of api, and define suitable values of environment variables mentioned in **.sample-env**
@@ -9,8 +9,8 @@
     ```
     HOST = '0.0.0.0'
     PORT = '5000'  
-    ```
     then will see the following message on your terminal
+    ```
     Running at http://0.0.0.0:5000/
     Connected to MongoDB
     ```
