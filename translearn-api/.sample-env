@@ -1,0 +1,6 @@
+HOST = <host>
+PORT = <port>
+DB_CONNECTION_URL = <mongodb-connection-url>
+DB_NAME = <dbName>
+DB_PASSWORD = <password>
+SECRET = <secretOrKey>

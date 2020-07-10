@@ -1,0 +1,33 @@
+{
+  "name": "translearn-api",
+  "version": "1.0.0",
+  "description": "A single API to provide all microservices of translearn",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanGupta03/translearn-backend.git"
+  },
+  "author": "The Bit Dragsters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmanGupta03/translearn-backend/issues"
+  },
+  "homepage": "https://github.com/AmanGupta03/translearn-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.22",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {}
+}
