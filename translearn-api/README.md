@@ -20,25 +20,25 @@
 * **SignUp**
 	- Post API
 	- **http://0.0.0.0:5000/signup**
-
-Example 
-```
-curl -d "username=user&email=user@xyz.com&password=password" -X POST http://0.0.0.0:5000/signup
- ```
+  - **Example** 
+      ```
+      curl -d "username=user&email=user@xyz.com&password=password" -X POST http://0.0.0.0:5000/signup
+      ```
 
 
 * **Login**
 	- Post API
 	- **http://0.0.0.0:0/login**
-Example
- ```
-curl -d "username=user&password=password" -X POST http://0.0.0.0:5000/login
- ```
+  - **Example**
+      ```
+      curl -d "username=user&password=password" -X POST http://0.0.0.0:5000/login
+      ```
 
 * **Profile**
 	- Get API
 	- **http://0.0.0.0/5000/user/profile?secret_token=<secret_token>**
   - **secret_token** is return by login request
-```
-curl http://0.0.0.0/5000/user/profile?secret_token=<secret_token>
-```
+  - **Example**
+      ```
+      curl http://0.0.0.0/5000/user/profile?secret_token=<secret_token>
+      ```
