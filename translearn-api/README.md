@@ -9,6 +9,7 @@
     ```
     HOST = '0.0.0.0'
     PORT = '5000'  
+    ```
     then will see the following message on your terminal
     ```
     Running at http://0.0.0.0:5000/
@@ -19,35 +20,25 @@
 * **SignUp**
 	- Post API
 	- **http://0.0.0.0:5000/signup**
+
+Example 
 ```
-{
- "code":"a=$a  \n a; \n",
- "lang":"python",
- "vars":{"$a":2,"$b":3}
- }
+curl -d "username=user&email=user@xyz.com&password=password" -X POST http://0.0.0.0:5000/signup
  ```
 
 
 * **Login**
 	- Post API
 	- **http://0.0.0.0:0/login**
+Example
  ```
- {
-    	"id":"5",
-    	"varObj":["$a"],
-    	"code":"<?php \n$value=$a; \n $a;?>",
-    	"lang":"php"
-	
- }
+curl -d "username=user&password=password" -X POST http://0.0.0.0:5000/login
  ```
-	
 
 * **Profile**
 	- Get API
 	- **http://0.0.0.0/5000/user/profile?secret_token=<secret_token>**
+  - **secret_token** is return by login request
 ```
-{
-    "id":"5",
-    "vars":{"$a":2}	
-}
+curl http://0.0.0.0/5000/user/profile?secret_token=<secret_token>
 ```
