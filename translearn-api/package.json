@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmanGupta03/translearn-backend.git"
+    "url": "git+https://github.com/AmanGupta03/TransLearn/tree/master/translearn-api"
   },
   "author": "The Bit Dragsters",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AmanGupta03/translearn-backend/issues"
+    "url": "https://github.com/AmanGupta03/TransLearn/issues"
   },
-  "homepage": "https://github.com/AmanGupta03/translearn-backend#readme",
+  "homepage": "https://github.com/AmanGupta03/TransLearn/tree/master/translearn-api#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
