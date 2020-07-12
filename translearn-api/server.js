@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const cors = require('cors')
 
-//Loads Environemnt Variables 
+//Loads Environment Variables 
 require('dotenv').config();
 
 const host = process.env.HOST; 
