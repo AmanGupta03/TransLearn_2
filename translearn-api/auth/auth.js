@@ -6,7 +6,7 @@ const UserModel = require('../model/user');
 const JWTstrategy = require('passport-jwt').Strategy;
 const ExtractJWT = require('passport-jwt').ExtractJwt;
 
-//Loads Environemnt Variables 
+//Loads Environment Variables 
 require('dotenv').config({path : '../.env'});
 
 /*
