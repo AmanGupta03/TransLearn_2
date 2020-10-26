@@ -1,0 +1,16 @@
+.login-bg {
+  height: 100vh;
+  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/geometry2.png);
+}
+
+.loginContainer {
+  /* margin-top: 10vh; */
+  /* background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/geometry2.png); */
+}
+
+.loginfields {
+  background: white;
+  border-radius: 10px;
+  /* width: 100%; */
+  padding: 30px;
+}

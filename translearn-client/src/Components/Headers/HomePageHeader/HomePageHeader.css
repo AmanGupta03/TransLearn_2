@@ -1,0 +1,24 @@
+.logo-big svg {
+  margin-top: 7px;
+  height: 68.04px;
+  width: 291.36px;
+  /* -webkit-transition: all 1s ease; */
+  /* transition: all 1s ease; */
+}
+
+.logo svg {
+  margin-top: 7px;
+  height: 54.43px;
+  width: 233.1px;
+  /* -webkit-transition: all 1s ease; */
+  /* transition: all 1s ease; */
+}
+
+.logo-drawer-div {
+  width: 300px;
+}
+
+.logo-drawer svg {
+  height: 62.37px;
+  width: 178.75px;
+}
